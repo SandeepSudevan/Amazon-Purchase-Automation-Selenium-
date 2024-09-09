@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-06T21:07:29 IST" name="Suite" finished-at="2024-09-06T21:12:38 IST" duration-ms="309019">
+    <groups>
+    </groups>
+    <test started-at="2024-09-06T21:07:29 IST" name="Test" finished-at="2024-09-06T21:12:38 IST" duration-ms="309019">
+      <class name="Daszio.AmazonPurchase.AppTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:07:29 IST" name="openBrowser" finished-at="2024-09-06T21:07:33 IST" duration-ms="4388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="addCart(java.util.HashMap)[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:07:33 IST" name="addCart" data-provider="testData1" finished-at="2024-09-06T21:07:56 IST" duration-ms="22596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=SANDZIO:;33333, search=shoes for men, product=Drogo, phone=7358618952, brand=adidas}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:07:56 IST" name="closeBrowser" finished-at="2024-09-06T21:07:56 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:07:56 IST" name="openBrowser" finished-at="2024-09-06T21:08:01 IST" duration-ms="4579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="addCart(java.util.HashMap)[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:08:01 IST" name="addCart" data-provider="testData1" finished-at="2024-09-06T21:08:46 IST" duration-ms="45163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=SANDZIO:;33333, search=Mens shave, product=Mens, phone=7358618952, brand=Gillette}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:08:46 IST" name="closeBrowser" finished-at="2024-09-06T21:08:46 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:08:46 IST" name="openBrowser" finished-at="2024-09-06T21:08:50 IST" duration-ms="3958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="deleteItems(java.util.HashMap)[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:08:50 IST" name="deleteItems" data-provider="testData2" finished-at="2024-09-06T21:09:49 IST" duration-ms="59452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=SANDZIO:;33333, search=Mens shave, product=Mens, phone=7358618952, brand=Gillette}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItems -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:09:49 IST" name="closeBrowser" finished-at="2024-09-06T21:09:50 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:09:50 IST" name="openBrowser" finished-at="2024-09-06T21:09:54 IST" duration-ms="3795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method retried="true" signature="storeDataInExcel(java.util.HashMap)[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:09:54 IST" name="storeDataInExcel" data-provider="testData1" finished-at="2024-09-06T21:11:10 IST" duration-ms="76886" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=SANDZIO:;33333, search=shoes for men, product=Drogo, phone=7358618952, brand=adidas}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 69 out of bounds for length 69]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 69 out of bounds for length 69
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+at java.base/java.util.Objects.checkIndex(Objects.java:385)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy17.get(Unknown Source)
+at Daszio.Components.Items.excelData(Items.java:88)
+at Daszio.AmazonPurchase.AppTest.storeDataInExcel(AppTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeDataInExcel -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:11:10 IST" name="closeBrowser" finished-at="2024-09-06T21:11:11 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:11:11 IST" name="openBrowser" finished-at="2024-09-06T21:11:14 IST" duration-ms="3544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="storeDataInExcel(java.util.HashMap)[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:11:14 IST" name="storeDataInExcel" data-provider="testData1" finished-at="2024-09-06T21:11:39 IST" duration-ms="24514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=SANDZIO:;33333, search=shoes for men, product=Drogo, phone=7358618952, brand=adidas}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeDataInExcel -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:11:39 IST" name="closeBrowser" finished-at="2024-09-06T21:11:39 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:11:39 IST" name="openBrowser" finished-at="2024-09-06T21:11:43 IST" duration-ms="3785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="storeDataInExcel(java.util.HashMap)[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:11:43 IST" name="storeDataInExcel" data-provider="testData1" finished-at="2024-09-06T21:12:19 IST" duration-ms="36258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=SANDZIO:;33333, search=Mens shave, product=Mens, phone=7358618952, brand=Gillette}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeDataInExcel -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Daszio.AmazonPurchase.AppTest@32115b28]" started-at="2024-09-06T21:12:19 IST" name="closeBrowser" finished-at="2024-09-06T21:12:19 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Daszio.AmazonPurchase.AppTest -->
+      <class name="Daszio.AmazonPurchase.ErrorValidation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Daszio.AmazonPurchase.ErrorValidation@776a6d9b]" started-at="2024-09-06T21:12:19 IST" name="openBrowser" finished-at="2024-09-06T21:12:23 IST" duration-ms="3886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="wrongPassword(java.util.HashMap)[pri:0, instance:Daszio.AmazonPurchase.ErrorValidation@776a6d9b]" started-at="2024-09-06T21:12:23 IST" name="wrongPassword" data-provider="testData_1" finished-at="2024-09-06T21:12:28 IST" duration-ms="5486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=SANDZvksj56, wrongphone=78618952, correctphone=7358618952}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Daszio.AmazonPurchase.ErrorValidation@776a6d9b]" started-at="2024-09-06T21:12:28 IST" name="closeBrowser" finished-at="2024-09-06T21:12:29 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Daszio.AmazonPurchase.ErrorValidation@776a6d9b]" started-at="2024-09-06T21:12:29 IST" name="openBrowser" finished-at="2024-09-06T21:12:32 IST" duration-ms="3821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="wrongPhoneNo(java.util.HashMap)[pri:0, instance:Daszio.AmazonPurchase.ErrorValidation@776a6d9b]" started-at="2024-09-06T21:12:32 IST" name="wrongPhoneNo" data-provider="testData_1" finished-at="2024-09-06T21:12:38 IST" duration-ms="5239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=SANDZvksj56, wrongphone=78618952, correctphone=7358618952}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongPhoneNo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Daszio.AmazonPurchase.ErrorValidation@776a6d9b]" started-at="2024-09-06T21:12:38 IST" name="closeBrowser" finished-at="2024-09-06T21:12:38 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Daszio.AmazonPurchase.ErrorValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
